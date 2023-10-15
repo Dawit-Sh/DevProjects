@@ -4,7 +4,10 @@ This is an open source project from [DevProjects](http://www.codementor.io/proje
 Find the project requirements here: [Alpaca image generator website](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8)
 
 ## Tech/framework used
-Built with ___
+Built with 
+- Tailwind Css 
+- Javascript 
+- Html5 
 
 ## Screenshots and demo
 
