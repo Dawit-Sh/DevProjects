@@ -570,6 +570,18 @@ video {
   position: relative;
 }
 
+.top-2 {
+  top: 0.5rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -666,6 +678,16 @@ video {
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.bg-lime-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 163 13 / var(--tw-bg-opacity));
 }
 
 .p-4 {
