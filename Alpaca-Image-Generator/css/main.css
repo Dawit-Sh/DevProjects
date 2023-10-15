@@ -582,6 +582,22 @@ video {
   top: 0px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -623,12 +639,24 @@ video {
   flex-wrap: wrap;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .gap-4 {
   gap: 1rem;
 }
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-y-12 {
