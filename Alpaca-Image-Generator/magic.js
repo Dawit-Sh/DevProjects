@@ -84,8 +84,23 @@ const background = [
     { name: "Grey 80", color: "#333333" }
 ]
 
-// Change Button Color 
-function hairColor() {
-document.getElementById("hair").style.backgroundColor = orange;
- 
+
+variable.map((item)=>{//do the changing logic here})
+
+
+    def
+  eyesP.map(eyes) {
+  }
+
+
+
+
+
+// Easter EGG   
+  document.getElementById("egg").addEventListener("click", easterEGG() {
+    alert("To Dough_Nut");
+  } );
+
+  function Hidden() {
+
 }
