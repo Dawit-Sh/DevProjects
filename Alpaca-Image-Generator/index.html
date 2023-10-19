@@ -10,7 +10,7 @@
 
 <body class="bg-gray-200">
   <nav class="bg-gray-800 text-white p-4">
-    <h1 class="text-xl font-bold">$~> Alpaca Generator <a href="https://dawit-sh.github.io/"><i>&nbsp&nbsp&nbsp&nbsp :By Dawit-Sh</i></a></h1>
+    <h1 class="text-xl font-bold" onmouseout="mOut(this)" onmouseover="mOver(this)">$~> Alpaca Generator</h1>
   </nav>
 <!--Alpaca Body -->
   <div class="container mx-auto flex flex-wrap py-4">
@@ -32,8 +32,8 @@
       <div class="bg-white p-4">
 <!--Customize -->
         <h2 class="text-xl font-bold mb-4">Customize Alpaca</h2>
-        <div class="flex flex-wrap gap-4">
-           <button type="button" class="btn btn-primary p-3 px-6 pt-2 gap rounded-full text-white  bg-blue-600" id="hair" onclick="hairColor">Hair</button>
+        <div class="flex flex-wrap gap-4" id="MainBtn">
+           <button type="button" class="btn btn-primary p-3 px-6 pt-2 gap rounded-full text-white  bg-blue-600" id="Main_hair">Hair</button>
            <button type="button" class="btn btn-primary p-3 px-6 pt-2 gap rounded-full text-white  bg-blue-600" id="ear">Ear</button>
            <button type="button" class="btn btn-primary p-3 px-6 pt-2 gap rounded-full text-white  bg-blue-600" id="eyes">Eyes</button> 
            <button type="button" class="btn btn-primary p-3 px-6 pt-2 gap rounded-full text-white  bg-blue-600" id="mouth">Mouth</button> 
@@ -46,7 +46,7 @@
 <!--Style-->
       <div class="bg-white p-4">
         <h2 class="text-xl font-bold mb-4">Style</h2>
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-wrap gap-4" id="ChangeBtn">
           <button class="btn btn-primary p-3 px-6 pt-2 gap rounded-full  text-white  bg-blue-600">Ear</button>
           <button class="btn btn-primary p-3 px-6 pt-2 gap rounded-full  text-white  bg-blue-600">Hair</button>
            <button class="btn btn-primary p-3 px-6 pt-2 gap rounded-full text-white  bg-blue-600">Eyes</button> 
@@ -67,6 +67,6 @@
     </div>
   </nav>
 
-<script src="magic.js"></script>
+<script src="new.js"></script>
 </body>
 </html>
