@@ -8,7 +8,11 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        Blue50: 'hsl(216, 90%, 65%)',
+      },
+    },
   },
   plugins: [],
 }
