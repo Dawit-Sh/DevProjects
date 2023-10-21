@@ -25,29 +25,77 @@ MainHair.addEventListener('click', () => {
   }
 
   // Create new buttons.
-  let default = document.createElement('default');
-  button1.innerHTML = 'Default';
+  let button1 = document.createElement('button');
+  button1.innerHTML = 'Normal';
+  button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
 
-  let bang = document.createElement('button');
+  let button2 = document.createElement('button');
   button2.innerHTML = 'Bang';
+  button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
 
-  let elegant = document.createElement('button');
+  let button3 = document.createElement('button');
   button3.innerHTML = 'Elegant';
+  button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
 
-  let short = document.createElement('button');
+  let button4 = document.createElement('button');
   button4.innerHTML = 'Short';
+  button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
 
-  let fancy = document.createElement('button');
+  let button5 = document.createElement('button');
   button5.innerHTML = 'Fancy';
+  button5.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
 
-  let quiff = document.createElement('button');
+  let button6 = document.createElement('button');
   button6.innerHTML = 'Quiff';
+  button6.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
 
   // Add the new buttons to the div element.
-  div.appendChild(default);
-  div.appendChild(bang);
-  div.appendChild(elegant);
-  div.appendChild(short);
-  div.appendChild(fancy);
-  div.appendChild(quiff);
+  div.appendChild(button1);
+  div.appendChild(button2);
+  div.appendChild(button3);
+  div.appendChild(button4);
+  div.appendChild(button5);
+  div.appendChild(button6);
+});
+
+
+
+Maineyes.addEventListener('click', () => {
+  // Remove the existing buttons.
+  while (div.firstChild) {
+    div.removeChild(div.firstChild);
+  }
+
+  // Create new buttons.
+  let button1 = document.createElement('button');
+  button1.innerHTML = 'Normal';
+  button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+
+  let button2 = document.createElement('button');
+  button2.innerHTML = 'Angry';
+  button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+
+  let button3 = document.createElement('button');
+  button3.innerHTML = 'Star';
+  button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+
+  let button4 = document.createElement('button');
+  button4.innerHTML = 'Panda';
+  button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+
+  let button5 = document.createElement('button');
+  button5.innerHTML = 'Smart';
+  button5.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+
+  let button6 = document.createElement('button');
+  button6.innerHTML = 'Naughty';
+  button6.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+
+  // Add the new buttons to the div element.
+  div.appendChild(button1);
+  div.appendChild(button2);
+  div.appendChild(button3);
+  div.appendChild(button4);
+  div.appendChild(button5);
+  div.appendChild(button6);
 });
