@@ -46,7 +46,7 @@ MainHair.addEventListener('click', () => {
   button3.innerHTML = 'Elegant';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
   button3.addEventListener('click', () => {
-  imageElement.src = 'assets/alpaca/elegant.png';
+  imageElement.src = 'assets/alpaca/hair/elegant.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
 
@@ -54,7 +54,7 @@ MainHair.addEventListener('click', () => {
   button4.innerHTML = 'Short';
   button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
   button4.addEventListener('click', () => {
-  imageElement.src = 'assets/alpaca/short.png';
+  imageElement.src = 'assets/alpaca/hair/short.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
 
@@ -62,7 +62,7 @@ MainHair.addEventListener('click', () => {
   button5.innerHTML = 'Fancy';
   button5.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
   button5.addEventListener('click', () => {
-  imageElement.src = 'assets/alpaca/fancy.png';
+  imageElement.src = 'assets/alpaca/hair/fancy.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
 
@@ -70,7 +70,15 @@ MainHair.addEventListener('click', () => {
   button6.innerHTML = 'Quiff';
   button6.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
   button6.addEventListener('click', () => {
-  imageElement.src = 'assets/alpaca/quiff.png';
+  imageElement.src = 'assets/alpaca/hair/quiff.png';
+  imageElement.classList('absolute', 'top-0', 'w-full')
+});
+
+  let button7 = document.createElement('button');
+  button7.innerHTML = 'Curly';
+  button7.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
+  button7.addEventListener('click', () => {
+  imageElement.src = 'assets/alpaca/hair/Curly';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
   // Add the new buttons to the div element.
@@ -80,6 +88,7 @@ MainHair.addEventListener('click', () => {
   div.appendChild(button4);
   div.appendChild(button5);
   div.appendChild(button6);
+  div.appendChild(button7);
 });
 
 Maineyes.addEventListener('click', () => {
