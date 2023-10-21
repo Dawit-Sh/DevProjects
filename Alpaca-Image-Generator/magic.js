@@ -6,6 +6,12 @@ function mOver(obj) {
   obj.innerHTML = ":By Dawit-Sh"
 }
 console.log('Some Magic Is Happening 🪄')
+// alert 
+function Msg() {
+  alert('Why Tf you clicking ?? ')
+}
+
+
 
 const MainHair = document.querySelector("#Main_hair")
 const Maineyes = document.querySelector("#Main_eyes")
