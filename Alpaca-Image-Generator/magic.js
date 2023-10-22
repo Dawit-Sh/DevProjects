@@ -8,7 +8,7 @@ function mOver(obj) {
 console.log('Some Magic Is Happening 🪄')
 // alert 
 function Msg() {
-  alert('Why Tf you clicking ?? ')
+  alert('Why Tf is you clicking ?? ')
 }
 
 
@@ -171,27 +171,27 @@ Mainear.addEventListener('click', () => {
   let button1 = document.createElement('button');
   button1.innerHTML = 'Normal';
   button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button2 = document.createElement('button');
   button2.innerHTML = 'tilt-back';
   button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button3 = document.createElement('button');
   button3.innerHTML = 'tilt-forward';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   // Add the new buttons to the div element.
   div.appendChild(button1);
   div.appendChild(button2);
@@ -208,51 +208,51 @@ Mainleg.addEventListener('click', () => {
   let button1 = document.createElement('button');
   button1.innerHTML = 'Normal';
   button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button2 = document.createElement('button');
   button2.innerHTML = 'bubble-tea';
   button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button3 = document.createElement('button');
   button3.innerHTML = 'cookie';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button4 = document.createElement('button');
   button4.innerHTML = 'tilt-forward';
   button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button4.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button5 = document.createElement('button');
   button5.innerHTML = 'game-console';
   button5.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button5.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button6 = document.createElement('button');
   button6.innerHTML = 'tilt-back';
   button6.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button6.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   // Add the new buttons to the div element.
   div.appendChild(button1);
   div.appendChild(button2);
@@ -272,43 +272,43 @@ Mainmouth.addEventListener('click', () => {
   let button1 = document.createElement('button');
   button1.innerHTML = 'Normal';
   button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+  
   let button2 = document.createElement('button');
   button2.innerHTML = 'eating';
   button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button3 = document.createElement('button');
   button3.innerHTML = 'tounge';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button4 = document.createElement('button');
   button4.innerHTML = 'laugh';
   button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button4.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button5 = document.createElement('button');
   button5.innerHTML = 'astonished';
   button5.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button5.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   // Add the new buttons to the div element.
   div.appendChild(button1);
   div.appendChild(button2);
@@ -327,35 +327,35 @@ Mainneck.addEventListener('click', () => {
   let button1 = document.createElement('button');
   button1.innerHTML = 'Normal';
   button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button2 = document.createElement('button');
   button2.innerHTML = 'bend-back';
   button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button3 = document.createElement('button');
   button3.innerHTML = 'bend-forward';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button4 = document.createElement('button');
   button4.innerHTML = 'thick';
   button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button4.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   // Add the new buttons to the div element.
   div.appendChild(button1);
   div.appendChild(button2);
@@ -373,35 +373,35 @@ Mainacces.addEventListener('click', () => {
   let button1 = document.createElement('button');
   button1.innerHTML = 'Headphone';
   button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button2 = document.createElement('button');
   button2.innerHTML = 'flower';
   button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button3 = document.createElement('button');
   button3.innerHTML = 'glasses';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button4 = document.createElement('button');
   button4.innerHTML = 'earings';
   button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button4.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   // Add the new buttons to the div element.
   div.appendChild(button1);
   div.appendChild(button2);
@@ -419,107 +419,107 @@ Mainbg.addEventListener('click', () => {
   let button1 = document.createElement('button');
   button1.innerHTML = 'Blue-50';
   button1.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button2 = document.createElement('button');
   button2.innerHTML = 'Blue-60';
   button2.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button3 = document.createElement('button');
   button3.innerHTML = 'Blue-70';
   button3.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button4 = document.createElement('button');
   button4.innerHTML = 'DarkBlue-30';
   button4.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button4.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button5 = document.createElement('button');
   button5.innerHTML = 'DarkBlue-50';
   button5.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button5.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button6 = document.createElement('button');
   button6.innerHTML = 'DarkBlue-70';
   button6.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button6.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button7 = document.createElement('button');
   button7.innerHTML = 'Green-50';
   button7.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button7.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+  
   let button8 = document.createElement('button');
   button8.innerHTML = 'Green-60';
   button8.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button8.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button9 = document.createElement('button');
   button9.innerHTML = 'Green-70';
   button9.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button9.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button10 = document.createElement('button');
   button10.innerHTML = 'Grey-40';
   button10.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button10.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button11 = document.createElement('button');
   button11.innerHTML = 'Grey-70';
   button11.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button11.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button12 = document.createElement('button');
   button12.innerHTML = 'Grey-80';
   button12.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button12.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button13 = document.createElement('button');
   button13.innerHTML = 'Red-50';
   button13.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button13.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
+
   let button14 = document.createElement('button');
   button14.innerHTML = 'Red-60';
   button14.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
@@ -531,7 +531,7 @@ Mainbg.addEventListener('click', () => {
   let button15 = document.createElement('button');
   button15.innerHTML = 'Red-70';
   button15.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-  button14.addEventListener('click', () => {
+  button15.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
@@ -539,26 +539,22 @@ Mainbg.addEventListener('click', () => {
   let button16 = document.createElement('button');
   button16.innerHTML = 'Yellow-50';
   button16.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button16.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
 
-
   let button17 = document.createElement('button');
   button17.innerHTML = 'Yellow-60';
   button17.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button17.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
   let button18 = document.createElement('button');
   button18.innerHTML = 'Yellow-70';
   button18.classList.add('btn', 'btn-primary', 'p-3', 'px-6', 'pt-2', 'gap', 'rounded-full', 'text-white', 'bg-blue-600');
-
-  button14.addEventListener('click', () => {
+  button18.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/backgrounds/red60.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
