@@ -1,5 +1,5 @@
-# DevProjects by codementor  
+# DevProjects  
 
-A collection of random projects i did to help me in my coding journey 
+Simple Projects in JavaScript to help me understand how JavaScript Works 
 
-- site: [DevProjects](https://www.codementor.io/projects)
+

@@ -38,6 +38,7 @@ MainHair.addEventListener('click', () => {
   button1.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/hair/default.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
+    div.appendChild(button1);
 });
 
   let button2 = document.createElement('button');
@@ -46,6 +47,7 @@ MainHair.addEventListener('click', () => {
   button2.addEventListener('click', () => {
   imageElement.src = 'assets/alpaca/hair/bang.png';
   imageElement.classList('absolute', 'top-0', 'w-full')
+    div.appendChild(button2);
 });
 
   let button3 = document.createElement('button');
@@ -88,8 +90,6 @@ MainHair.addEventListener('click', () => {
   imageElement.classList('absolute', 'top-0', 'w-full')
 });
   // Add the new buttons to the div element.
-  div.appendChild(button1);
-  div.appendChild(button2);
   div.appendChild(button3);
   div.appendChild(button4);
   div.appendChild(button5);
